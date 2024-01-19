@@ -1,8 +1,8 @@
 # hello-world
-This repository will be used to learn the functions of GitHub better
+The purpose of this repository is to compile notes and resources as I learn to use Git and GitHub better. My goal is to interact with GitHub entirely using command-line on Mac Terminal.
 
 ## about me
-I am a postdoc at NC State and a part of the Science and Technologies for Phosphorus Sustainability (STEPS) Center. My interests are microorganisms, biotechnology, and STEM outreach/communication.
+[Under development! See my LinkedIn below for more.] I am a postdoc in the Department of Civil, Construction, and Environmental Engineering at NC State and a part of the Science and Technologies for Phosphorus Sustainability (STEPS) Center.
 
 [STEPS Center] (https://steps-center.org/)
 
