@@ -122,12 +122,30 @@ git pull
 ## Cloning a Repository using Terminal
 
 ```
-gh clone REPOSITORY
+gh repo clone REPOSITORY
 ```
 
 Tips for [cloning a repository] (https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli).
 
 
+## Setting up Obsidian Git
+
+Follow [this tutorial] (https://forum.obsidian.md/t/the-easiest-way-to-setup-obsidian-git-to-backup-notes/51429) for easily setting up obsidian git until step 8.
+
+Notes: 
+* The community plugin is just called "Git", not "Obsidian Git" now. 
+* If you have existing directories in your Obsidian Vault you want to include, follow the directions to create a new directory / repository and then copy the files from the previous directory into the new local / remote linked repository.
+
+
+Now, move to the command line and follow the second half of the Quick Set Up instructions from GitHub that appear when a new repository is made. 
+
+```
+git remote add origin https://github.com/<username>/<repo_name>.git
+git branch -M main
+git push -u origin main
+```
+
+The combination of the tutorial and these steps should resolved permission issues that arise when following just one or the other. The obsisian git plugin is dependent on the personal access token, so that needs to be set up. But the main branch still needs to be created and pushed to remote, which isn't explicitly done in the tutorial. 
 
 
 
